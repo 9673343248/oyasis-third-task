@@ -1,0 +1,78 @@
+body{
+    background-image: url("calculator.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.container{
+    width: 300px;
+    height: 480px;
+    position: relative;
+    background-color: rgb(128,128,128);
+    border-radius: 10px;
+    margin: 80px auto;
+    box-shadow: inset 0px 0px 5px 1px #000;
+
+}
+.cal-box{
+    width: 200px;
+    margin: 20px auto;
+}
+h2{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-family: -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+     'Open Sans', 'Helvetica Neue', sans-serif;
+}
+hr{
+    color: white;
+    margin-top: 30px;
+}
+.display{
+    width: 170px;
+    padding: 15px;
+    margin-top: 10px;
+    text-align: right;
+    font-size: 25px;
+    color: black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    box-shadow: inset 1px 1ps 2px 1px #000;
+
+}
+.button{
+    margin: 10px 0 0 2px;
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+    box-shadow: inset 0px 0px 5px 1px rgb(156, 145, 145);
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.clear{
+    background-color: rgb(53, 47, 47);
+    color: white;
+    box-shadow: 0px 0px 5px 1px #292727;
+
+}
+.operator{
+    background-color: rgb(53, 47, 47);
+    color: white;
+    box-shadow: 0px 0px 5px 1px #292727;
+}
+.button:active{
+    background-color: #4b4545;
+    color: black;
+
+}
+.operator:active{
+    background-color: #adaaad;
+    color: rgb(8,8,8);
+    box-shadow: 0px 0px 5px 1px #000;
+}
